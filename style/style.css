@@ -29,11 +29,11 @@ body {
 
 .btn-primary {
     padding: 17px 24px;
-    border: 2px solid gold;
+    border: none;
     font-size: 20px;
     font-weight: 600;
     border-radius: 10px;
-    background-color: #FD6E0A;
+    background-color: rgba(226, 135, 93, 0.767);
 
 }
 
@@ -186,5 +186,122 @@ body {
     width: 1300px;
     margin: 0 auto;
     margin-top: 22px;
+}
 
+/* My Current Target section start here */
+.target-container-section {
+    height: 460px;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.target-contant {
+    height: 120px;
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.target-contant h1 {
+    font-size: 32px;
+    font-weight: 800;
+    color: #0D1321;
+    margin-bottom: 20px;
+}
+
+.target-contant p {
+    font-size: 16px;
+}
+
+.target-card-section {
+    height: 320px;
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    border: 2px solid rgba(255, 76, 30, 0.05);
+    gap: 20px;
+}
+
+.target-card-contant {
+    height: 80%;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 33px;
+}
+
+.target-card-contant {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+
+}
+
+.target-card-contant p {
+    margin: 13px 0px;
+}
+
+.target-card-contant h3 {
+    margin-top: 7px;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.card-head {
+    display: flex;
+}
+
+/* footer section start here */
+
+.support-section-container {
+    height: 320px;
+    width: 78%;
+    margin: 0 auto;
+    background-image: url("../assets/handshake.jpg");
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+    background-blend-mode: overlay;
+}
+
+.support-section-title {
+    height: 105px;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.form-section {
+    display: flex;
+    margin: 50px 400px 20px 400px;
+    gap: 15px;
+}
+
+.support-section-title h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 20px ;
+}
+
+.support-section-title p {
+    color: white;
+}
+
+.form-section input {
+    height: 57px;
+    width: 400px;
+    font-size: 16px;
 }
